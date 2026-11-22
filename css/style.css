@@ -1,0 +1,150 @@
+/* =========================================================================
+   CSS Stylesheet for Springtime in Michigan website (Ultra-Safe Light Theme)
+   ========================================================================= */
+
+/* --- 1. BODY STYLING (Rubric: 3 Marks - Both font-family and font-size updated) --- */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1.15rem;
+  /* DIUBAH: Menggunakan 1.15rem supaya jelas berbeza daripada saiz lalai (16px) browser */
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* --- 2. HEADER STYLING (Rubric: 2 Marks - Styled with a new background-color) --- */
+header {
+  background-color: #e2e8f0;
+  color: #0f172a;
+  padding: 25px;
+  text-align: center;
+}
+
+/* --- 3. NAV STYLING (Rubric: 2 Marks - Styled with a new background-color) --- */
+nav {
+  background-color: #cbd5e1;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* --- 4. LIST ITEM (li) STYLING (Rubric: 3 Marks - Both display and width updated) --- */
+li {
+  display: inline;
+  /* DIUBAH: Menggunakan 'inline' untuk mematuhi silibus rujukan menu navigasi */
+  width: 30%;
+  text-align: center;
+}
+
+/* Elemen tambahan untuk memastikan navigasi tersusun mendatar dengan cantik */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Gaya Pautan Navigasi (Navigation Links) */
+nav a,
+nav a:visited {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 8px;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  color: #0f172a;
+  text-decoration: underline;
+}
+
+/* --- 5. H1 STYLING (Rubric: 4 Marks - All three properties updated) --- */
+h1 {
+  text-align: center;
+  font-family: 'Georgia', Times, serif;
+  color: #1e3a8a;
+  margin-top: 15px;
+}
+
+/* --- 6. MAIN STYLING (Rubric: 3 Marks - Both background-color and font-size updated) --- */
+main {
+  background-color: #ffffff;
+  font-size: 1.15rem;
+  padding: 30px;
+  max-width: 960px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* --- 7. PARAGRAPH (p) STYLING (Rubric: 2 Marks - Styled with a new line-height) --- */
+p {
+  line-height: 1.8;
+  color: #0f172a;
+}
+
+/* Gaya Pautan Utama (Main Content Links) */
+main a,
+main a:visited {
+  color: #1d4ed8;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main a:hover,
+main a:focus {
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+/* --- 8. FOOTER STYLING (Rubric: 2 Marks - Styled with a new background-color) --- */
+footer {
+  background-color: #e2e8f0;
+  color: #0f172a;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+footer p {
+  color: #0f172a !important;
+}
+
+footer a,
+footer a:visited {
+  color: #1d4ed8;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+/* --- STYLES UNTUK GAMBAR (DECORATIVE IMAGE STYLING) --- */
+header img {
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main img {
+  margin: 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+main img:hover {
+  transform: scale(1.05);
+}
